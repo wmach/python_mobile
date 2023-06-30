@@ -75,7 +75,11 @@ py kivy_venv\share\kivy-examples\demo\showcase\main.py
 ## buildozer の dockerコンテナを起動
 
 1. 公式Dockerイメージクローン
-[buildozer公式](git clone https://github.com/kivy/buildozer.git)
+[buildozer公式](https://github.com/kivy/buildozer.git)
+
+```
+git clone https://github.com/kivy/buildozer.git
+```
 
 2. Dockerfile 編集
 
@@ -145,9 +149,9 @@ buildozer init
 
 2. buildozer.spec ファイルを編集
 
-'pygraments'を追加
+'pygments'を追加
 ```
-requirements = python3,kivy,pygraments
+requirements = python3,kivy,pygments
 ```
 
 3. buildozer で Android APK にパッケージ化
